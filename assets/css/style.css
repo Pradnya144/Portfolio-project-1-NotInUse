@@ -6,10 +6,40 @@ font-family: 'Satisfy', cursive;*/
     padding: 0;
     border: none;
 }
+
 html {
     height: 100%;
 }
+
 body {
     font-family: 'Crimson Text', serif;
-
 } 
+
+#logo {
+    font-family: 'Satisfy', cursive;
+    text-decoration: none;
+    float: left;
+    font-size: 150%;
+    color: #006572;
+    margin-left: 10px;
+}
+/* navigation styling */
+#menu {
+    font-size: 150%;
+    float: right;
+}
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 20px;
+}
+#menu, #logo {
+    line-height: 60px;
+}
+#menu a {
+    text-decoration: none;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid;
+}
