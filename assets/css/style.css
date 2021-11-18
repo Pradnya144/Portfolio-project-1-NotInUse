@@ -1,6 +1,15 @@
-@@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Satisfy&display=swap');
-
-body {
-    font-family: 'Crimson Text', sans-serif;
-    
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Satisfy&display=swap');
+/*font-family: 'Crimson Text', serif;
+font-family: 'Satisfy', cursive;*/
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
+html {
+    height: 100%;
+}
+body {
+    font-family: 'Crimson Text', serif;
+
+} 
